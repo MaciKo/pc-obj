@@ -1,0 +1,13 @@
+1、商品需要的数据  goods
+	
+	商品编号： goods-id
+	商品名称： goods-name
+	商品价格： goods-price
+	商品款式： goods-style
+	商品尺码： goods-size
+	商品库存： goods-stock
+	商品图片： goods-img
+
+	一件商品： {}  
+	n件商品： [{},{},{}]
+	n件商品： {10001:{},10002:{}}

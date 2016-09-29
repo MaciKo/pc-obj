@@ -1,0 +1,20 @@
+{
+	"10001": {
+		"goods-id": 10001,
+		"goods-name": "时尚起义 韩国直邮 秋季时尚蕾丝罩衫 +吊带衫 天蓝色",
+		"goods-price": 149.9,
+		"goods-style": "天蓝色",
+		"goods-size": "one",
+		"goods-stock": 999,
+		"goods-img": "img/10001-small.jpg"
+	},
+	"10002": {
+		"goods-id": 10002,
+		"goods-name": "时尚起义 韩国直邮 秋季时尚蕾丝罩衫 +吊带衫 白色",
+		"goods-price": 132,
+		"goods-style": "白色",
+		"goods-size": "one",
+		"goods-stock": 999,
+		"goods-img": "img/10001-small.jpg"
+	}
+}

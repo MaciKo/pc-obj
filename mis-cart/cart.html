@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/cart.css" />
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="top-nav">
+				<img src="img/cart/top-nav.png"> 
+			</div>
+			<div class="cart">
+				<div class="cart-top">
+					<img src="img/cart/cart-top.png"> 
+				</div>
+				<div class="cart-main">
+					<!--标题-->
+					<div class="cart-main-title">
+						<ul class="clearfix">
+							<li class="td td-checkbox">
+								<input type="checkbox" />
+								<span>全选</span>
+							</li>
+							<li class="td td-gname">
+								<div class="td-inner">商品</div>
+							</li>
+							<li class="td td-gstyle">商品信息</li>
+							<li class="td td-gprice">单价</li>
+							<li class="td td-gamount">数量</li>
+							<li class="td td-gmoney">金额</li>
+							<li class="td td-option">操作</li>
+						</ul>
+					</div>
+					<!--商品区-->
+					<div class="cart-main-content">
+
+					</div>
+					<!--操作区-->
+					<div class="cart-option clearfix">
+						<div class="options clearfix">
+							<div class="options-item select-all">
+								<input type="checkbox" class="select-all-btn">
+								<span>全选</span>
+							</div>
+							<div class="options-item delete">
+								<a href="#">删除</a>
+							</div>
+						</div>
+						<div class="cart-info clearfix">
+							<div class="info-item goods-amount">
+								已选商品<span class="user-goods-amount">0</span>件
+							</div>
+							<div class="info-item goods-money">
+								合计：不含运费<span class="user-goods-money">0.0</span>
+							</div>
+							<div class="info-item go-pay">结算</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/json2.js" ></script>
+		<script type="text/javascript" src="js/cart.js" ></script>
+	</body>
+</html>
+
+
+
+<!-- 
+	<ul class="cart-goods-item clearfix">
+				<li class="td td-checkbox">
+					<input type="checkbox" />
+				</li>
+				<li class="td td-gname">
+					<div class="td-inner clearfix">
+						<div class="goods-img">
+							<img src="img/10001-small.jpg">
+						</div>
+						<div class="goods-name">
+							<a href="#">时尚起义 韩国直邮 秋季时尚蕾丝罩衫 +吊带衫</a>
+						</div>
+					</div>
+				</li>
+				<li class="td td-gstyle">
+					<div class="gstyle">
+						<span class="">颜色：</span>
+						<span class="goods-style">天蓝色</span>
+					</div>
+					<div class="gsize">
+						<span class="">尺寸：</span>
+						<span class="goods-size">ONE</span>
+					</div>
+				</li>
+				<li class="td td-gprice">
+					<span>￥</span>
+					<span class="goods-price">152</span>
+				</li>
+				<li class="td td-gamount">
+					<div class="td-amount-wrapper">
+						<span class="amount-option amount-decrease">-</span>
+						<input class="amount-option amount-input" type="text" value="1">
+						<span class="amount-option amount-increase">+</span>
+					</div>
+				</li>
+				<li class="td td-gmoney">
+					<span>￥</span>
+					<span class="goods-money">152</span>
+				</li>
+				<li class="td td-option">
+					<a href="#">删除</a>
+				</li>
+			</ul>
